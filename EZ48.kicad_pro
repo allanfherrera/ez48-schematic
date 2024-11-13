@@ -578,6 +578,14 @@
     [
       "314449a7-2290-4acd-84cf-f85c76b7719b",
       "Root"
+    ],
+    [
+      "48229ab2-a484-4f6f-9ebd-d047f1eae76d",
+      "Unused Parts"
+    ],
+    [
+      "fb4764ae-220c-479b-9759-17a54c3ac16a",
+      "Bypass Caps"
     ]
   ],
   "text_variables": {}
