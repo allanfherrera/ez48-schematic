@@ -4339,6 +4339,28 @@
 			)
 		)
 	)
+	(global_label "+5VDC"
+		(shape input)
+		(at 148.59 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4965c0d3-d02c-41ce-9c10-8d5c1d674e00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.1943 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{EXP2}"
 		(shape output)
 		(at 48.26 64.77 0)
@@ -4511,6 +4533,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 146.05 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e9ba2d5-2aca-4fc8-99f5-2d9e99dab6a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 159.2557 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5237,6 +5281,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 148.59 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e637f1c-b2ee-41b6-9816-bd25a9943519")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 159.2557 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6894,7 +6960,7 @@
 	(symbol
 		(lib_id "Timer:NE556")
 		(at 57.15 110.49 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6992,7 +7058,7 @@
 			(project "EZ48"
 				(path "/314449a7-2290-4acd-84cf-f85c76b7719b"
 					(reference "U3")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
